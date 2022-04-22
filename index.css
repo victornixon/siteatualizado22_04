@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #fa0303, #f69090, #2332d5, #2394d5) no-repeat;
+    height: 630px;
+
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    background-color: #fa0303;
+    width: 12rem;
+    border-radius: 20px;
+    color: rgb(243, 247, 6);
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+div:hover {
+    cursor: pointer;
+    background: linear-gradient(-45deg, #fa0303, #f69090, #2332d5, #2394d5) no-repeat;
+    color: yellow;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    padding: 2rem;
+}
+footer#rodape {
+    clear: both;
+    text-align: center;margin-top: 5%;
+}
+
+  footer#rodape p {
+    text-align: center;
+    color: black;
+}
+
+  footer#rodape a {
+    color: black;
